@@ -1,0 +1,42 @@
+.userInfo {
+}
+
+.userPic {
+  text-align: center;
+  margin-bottom: 15px;
+  &__img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+}
+
+.author {
+  line-height: 1.2em;
+  margin-bottom: 100px;
+  h6 {
+    font-size: 30px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in-out;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  & a:hover {
+    transform: scale(1.7);
+  }
+}
