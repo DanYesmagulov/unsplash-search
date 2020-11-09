@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next  -p $PORT",
-    "heroku-postbuild": "yarn build"
+    "start": "next  -p $PORT"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
